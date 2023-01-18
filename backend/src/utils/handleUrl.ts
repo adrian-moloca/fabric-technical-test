@@ -1,0 +1,2 @@
+export const fetchURL = (search: string) => `http://www.omdbapi.com/?s=${search}&apikey=720c3666`;
+export const redirectURL = (search: string) => `http://127.0.0.1:5050/technical-test/api/tests/database-movies/${search}`;
